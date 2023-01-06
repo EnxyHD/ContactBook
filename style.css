@@ -1,0 +1,115 @@
+body{
+    font-family: 'Gowun Dodum', sans-serif;
+    background-color: #EAEDF8;
+    margin:0;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343434;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.main{
+    display: flex;
+}
+
+.menu{
+    width: 20%;
+    background-color: #343434;
+    margin-right: 32px;
+    padding-top: 150px;
+    height: 100vh;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.menu img {margin-right: 8px;}
+
+.menu a:hover{color: rgba(255,255,255,0.1);}
+
+.content{
+    width: 80%;
+    margin-top: 150px;
+    margin-right: 32px;
+    margin-bottom: 100px;
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.menubar {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 80px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar{
+    border-radius: 100%;
+    background-color: #EAEDF8;
+    padding: 16px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.card{
+    position: relative;
+    background-color: rgba(0,0,0,0.1);
+    margin-bottom: 16px;
+    border-radius: 8px;
+    padding: 8px;
+    padding-left: 64px;
+}
+
+.profilePicture{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    left: 8px;
+}
+
+.phoneButton{
+    background-color: rgba(0,0,0,0.3);
+    padding: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    position: absolute;
+    right: 8px;
+    top: 12px;
+}
+
+.phoneButton:hover{
+    background-color: rgba(0,0,0,0.5);
+}
